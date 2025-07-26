@@ -1,0 +1,61 @@
+body {
+  background: #111;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.tower-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 300px;
+  margin: 40px auto 20px;
+  width: 600px;
+  position: relative;
+}
+
+.peg {
+  width: 10px;
+  height: 200px;
+  background: #ccc;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.label {
+  position: absolute;
+  bottom: -30px;
+  font-weight: bold;
+  color: white;
+}
+
+.disk {
+  height: 20px;
+  position: relative;
+  border-radius: 4px;
+  margin: 2px 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.disk1 { width: 60px; background: green; }
+.disk2 { width: 80px; background: lime; }
+.disk3 { width: 100px; background: yellow; }
+.disk4 { width: 120px; background: orange; }
+.disk5 { width: 140px; background: red; }
+
+#steps {
+  margin: 20px auto;
+  font-size: 16px;
+  max-height: 150px;
+  overflow-y: auto;
+  width: 300px;
+  border: 1px solid #555;
+  padding: 10px;
+  background: #222;
+  border-radius: 6px;
+  text-align: left;
+}
+
